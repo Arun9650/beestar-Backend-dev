@@ -39,7 +39,7 @@ guide_text = (
 def create_markup(include_guide_button=True, user_name=None, user_id=None):
     """Creates the inline keyboard markup with play, guide, and group buttons."""
     markup = types.InlineKeyboardMarkup()
-    game_url = f"https://beestar-kombat-git-ui-change-arun9650s-projects.vercel.app/?id={user_id}&userName={user_name}"
+    game_url = f"https://beestar-kombat-ojafxxuur-arun9650s-projects.vercel.app/?id={user_id}&userName={user_name}"
     print("backend bot",game_url)
     play_button = types.InlineKeyboardButton(
         text="Click to play 🎮", web_app=types.WebAppInfo(game_url)
