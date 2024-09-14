@@ -62,7 +62,7 @@ def create_markup(include_guide_button=True, user_name=None, user_id=None):
 def send_welcome(message):
     user_name = message.chat.first_name
     user_id = message.chat.id
-    print("user",user_name, user_id)
+    print("user",user_name, user_id) 
     message_text = (
         f"Hello {user_name}! Welcome to Beestar Kombat 🐝\n"
         "You are now the director of a buzzing exchange. Which one? You choose. \n\n"
